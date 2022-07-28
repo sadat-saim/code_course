@@ -1,0 +1,9 @@
+.carousel-item img{
+    height: 85vh;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    transform: translate(-50%, -50%) !important;
+    background-color: rgba(0, 0, 0, 0.5);
+}
