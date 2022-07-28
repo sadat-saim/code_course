@@ -30,3 +30,18 @@ img{
 i{
     font-size: 1.5rem;
 }
+
+/* responsive style */
+@media only screen and (max-width: 768px){
+    .w-sm-75{
+        width: 75% !important;
+    }
+}
+@media only screen and (max-width: 443px){
+    h1{
+        font-size: 2rem !important;
+    }
+    .w-sm-75{
+        width: 80% !important;
+    }
+}
